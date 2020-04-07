@@ -84,6 +84,10 @@ paths:
           in: query
           name: mode
           description: '**Mode*. Determines the format of the response. Possible values are `json`, `xml`, and `html`. If the mode parameter is empty, the format is `json` by default.'
+        - schema:
+            type: string
+          in: query
+          name: test
     parameters: []
 components:
   schemas: {}
